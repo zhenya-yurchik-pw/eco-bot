@@ -1,0 +1,28 @@
+{
+  "name": "eco",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "engines": {
+    "node": "14.15.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "cross-fetch": "^3.1.5",
+    "dotenv": "^14.2.0",
+    "geolib": "^3.3.3",
+    "mongodb": "^4.3.1",
+    "mongoose": "^6.2.2",
+    "node-telegram-bot-api": "^0.56.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1",
+    "shortid": "^2.2.16",
+    "websocket": "^1.0.34"
+  }
+}
