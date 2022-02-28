@@ -26,8 +26,6 @@ bot.onText(/\/start/, (msg) => {
 });
 bot.on('polling_error', (err) => console.log(`err`, err));
 bot.on('message', (msg) => {
-  console.log('msg', msg);
-
   const chatId = getChatId(msg);
   const telegramId = getTelegramId(msg);
   switch (msg.text) {
